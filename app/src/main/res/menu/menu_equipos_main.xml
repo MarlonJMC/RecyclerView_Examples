@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/ItemEquiposBuscar"
+            android:title="@string/pBuscar"
+            app:showAsAction="ifRoom"
+            android:icon="@android:drawable/ic_menu_search"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+    <item
+        android:id="@+id/ItemEquiposMayoraMenor"
+        android:title="@string/Pmayor_a_menor"
+        app:showAsAction="withText"
+        android:icon="@android:drawable/ic_menu_delete"
+        />
+    <item
+        android:id="@+id/ItemEquiposMenoraMayor"
+        android:title="@string/Pmenor_a_mayor"
+        app:showAsAction="withText"
+        android:icon="@android:drawable/ic_menu_delete"
+        />
+    <item
+        android:id="@+id/ItemEquiposMasInfo"
+        android:title="@string/pMasInfo"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+</menu>

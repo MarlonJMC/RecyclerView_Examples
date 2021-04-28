@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EjemploEquipos.ActivityEquiposMontacargas">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ReciclerEquipos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:maxHeight="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button_volver"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+    <Button
+        android:id="@+id/button_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Volver al Main"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:background="@color/colorFondo1"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/txtCantidad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ReciclerEquipos" />
+
+    <TextView
+        android:id="@+id/txtCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad:"
+        android:textColor="@color/FontColor1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/button_volver"
+        app:layout_constraintTop_toBottomOf="@id/ReciclerEquipos"
+        app:layout_constraintVertical_bias="0.578" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="item_product_count">Nombre:\nCantidad:</string>
+    <string name="title_activity_activiy_equipos_montacargas">ActiviyEquiposMontacargas</string>
+
+
+    <string name="title_activity_equipos_main">equipos_main</string>
+    <string name="cantidaditems">CantidadItems</string>
+    <string name="pConfiguraciónes">Configuraciónes</string>
+    <string name="pBuscar">Buscar</string>
+    <string name="pEliminar">Eliminar</string>
+    <string name="pMasInfo">Información</string>
+    <string name="pAgregar">Agregar</string>
+    <string name="pEquipo">Maquinaria pesada</string>
+    <string name="hSerie">Num. Serie</string>
+    <string name="hModelo">Modelo</string>
+    <string name="hMarca">Marca</string>
+    <string name="btnEquiposImagen1">Agregar imagen desde galería.</string>
+    <string name="Pmayor_a_menor">Mayor a menor</string>
+    <string name="Pmenor_a_mayor">Menor a mayor</string>
+    <string name="transition_Fab">transition_Fab</string>
+    <string name="btn_agregarfecha_equipos">Fecha de incorporación</string>
+    <string name="Pguardar_cambios">Guardar cambios</string>
+    <string name="TituloListViewDetalle">Mantenimientos en curso</string>
+    <string name="Pacciones_a_realizar">Realizar acciones:</string>
+    <string name="Ptickets_totales">Tickets totales</string>
+    <string name="Phor_metro_actualizado">Horómetro actualizado</string>
+    <string name="PSin_mantenimientos_actualmente">Sin mantenimientos actualmente</string>
+    <string name="Pnombre_de_equipo">Nombre de equipo</string>
+    <string name="Pmantenimiento_preventivo">Mantenimiento preventivo</string>
+    <string name="Pmantenimiento_correctivo">Mantenimiento correctivo</string>
+    <string name="Phistorial_de_este_equipo">Historial de este equipo</string>
+    <string name="Pmarcar_todos_los_equipos_como_disponibles">Marcar todos los equipos como disponibles</string>
+    <string name="Pdisponible">Disponible</string>
+    <string name="previsi_n_diaria">Revisión diaria</string>
+    <string name="Pnombre">Nombre:</string>
+    <string name="item_product_data">%s \n(x%s)</string>
+</resources>
